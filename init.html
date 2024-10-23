@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+        <input type="text" id="Hoten">
+        <input type="text" id="Tieude">
+        <input type="text" id="Loichuc">
+        <input type="text" id="Img1">
+        <input type="text" id="Img2">
+        <button onclick="chuyen()">submit</button>
+    <script>
+        function chuyen()
+        {
+            let HoTen = document.getElementById("Hoten").value
+            let TieuDe = document.getElementById("Tieude").value
+            let LoiChuc = document.getElementById("Loichuc").value
+            let img1 = document.getElementById("Img1").value
+            let img2 = document.getElementById("Img2").value
+            window.location.href = `index.html?fi9bet=${img1}&fxoilac=${img2}&flongdeprai=${TieuDe}&f1xbet=${LoiChuc}&fg1x3gl=${HoTen}`
+        }
+    </script>
+</body>
+</html>
