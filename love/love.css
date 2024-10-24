@@ -18,7 +18,7 @@ body{
 .formInput{
     position: absolute;
     top: -100%;
-    width: 40%;
+    width: 90%;
     left: 50%;
     transform: translateX(-50%);
     background-color: #EA4C89;
@@ -281,7 +281,7 @@ body{
         transform: translateX(-400px);
     }
     50%,100%{
-        transform: translateX(150px);
+        transform: translateX(10%);
     }
 }
 .boxHeart{

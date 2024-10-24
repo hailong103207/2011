@@ -31,10 +31,10 @@
                         <img src="../image/love2.png" id="img2" alt="">
                     </div>
                 </div>
-                <div class="left">
+                <div class="left" style="visibility: hidden;">
                     <i class="fa-solid fa-chevron-left"></i>
                 </div>
-                <div class="right">
+                <div class="right" style="visibility: hidden;">
                     <i class="fa-solid fa-chevron-right"></i>
                 </div>
             </div>
@@ -135,8 +135,8 @@
         let img1 = urlParams.get('fi9bet')
         let img2 = urlParams.get('fxoilac')
         var textToType = HoTen;
-        var image1 = "../image/" + img1;
-        var image2 = "../image/" + img2;
+        var image1 = img1;
+        var image2 = img2;
         textLetterH2 = TieuDe;
         textLetterP = LoiChuc;
         document.getElementById("img1").src = image1;

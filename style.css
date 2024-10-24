@@ -89,7 +89,7 @@ body{
 }
 .progress-bar{
     position: relative;
-    width: 400px;
+    width: 80vw;
     height: 45px;
     background: #fff;
     padding: 3px;
